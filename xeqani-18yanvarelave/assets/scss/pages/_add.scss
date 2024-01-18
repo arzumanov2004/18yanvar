@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #forumDiv{
+        width: 100%;
+        margin-top: 20px;
+        .myBox{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 0.3px solid rgb(161, 161, 161);
+            background-color: rgb(221, 221, 221);
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}

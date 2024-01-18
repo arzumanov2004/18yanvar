@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    .nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button{
+            width: 80px;
+            min-height: 40px;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .div{
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                list-style: none;
+                gap: 30px;
+                li{
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .dropdown{
+            display: none;
+        }
+
+    }
+}
+@media (max-width: 991px) {
+    header{
+        .nav{
+            .div{
+                display: none;
+            }
+            .dropdown{
+                display: block;
+            }
+               
+        }
+    }
+}
+.education{
+    img{
+        width: 100%;
+        height: 700px;
+    }
+}
+#RESCUE{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .fdfd{
+        border: 2px solid white;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+        color: white;
+    }
+}
+#LEADERSHIP{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .OUR{
+        width: 100%;
+        min-height: 700px;
+        .Lorem{
+            width: 100%;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            h1{
+                font-size: 55px;
+                font-weight: 800;
+            }
+        }
+        .MINING{
+            width: 100%;
+            text-align: center;
+            img{
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            i{
+                margin-top: 20px;
+                font-size: 25px;
+            }
+        }
+    }
+}
+#BLOG{
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .OUR{
+        width: 100%;
+        min-height: 700px;
+        .Lorem{
+            width: 100%;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            h1{
+                font-size: 55px;
+                font-weight: 800;
+            }
+        }
+    }
+    img{
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        height: 300px;
+    }
+    h3{
+        font-weight: 800;
+        color: #FD5F42;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h6{
+        color: #FD5F42;
+    }
+}
+footer{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    .end{
+        width: 100%;
+        min-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+#prodactsCart{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #myDiv{
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .myBox{
+            width: 100%;
+            min-height: 350px;
+            text-align: center;
+            margin-bottom: 20px;
+            img{
+                width: 150px;
+                height: 150px;
+                margin-bottom: 15px;
+                border-radius: 50%;
+            }
+            h3{
+                margin-bottom: 20px;
+                color: #FD5F00;
+                font-weight: 800;
+            }
+            button{
+                height: 30px;
+                background-color: #FD5F00;;
+                color: white;
+                border: none;
+                margin-bottom: 10px;
+                &:hover{
+                    background-color: white;
+                    color: #FD5F00;;
+                    border: 2px solid #FD5F00;;
+                }
+            }
+        }
+    }
+}

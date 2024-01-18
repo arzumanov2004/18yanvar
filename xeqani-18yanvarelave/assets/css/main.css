@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+header .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav button {
+  width: 80px;
+  min-height: 40px;
+  font-size: 25px;
+  font-weight: 700;
+}
+header .nav .div ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 30px;
+}
+header .nav .div ul li a {
+  color: black;
+  text-decoration: none;
+}
+header .nav .dropdown {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  header .nav .div {
+    display: none;
+  }
+  header .nav .dropdown {
+    display: block;
+  }
+}
+.education img {
+  width: 100%;
+  height: 700px;
+}
+
+#RESCUE {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#RESCUE .fdfd {
+  border: 2px solid white;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  color: white;
+}
+
+#LEADERSHIP {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#LEADERSHIP .OUR {
+  width: 100%;
+  min-height: 700px;
+}
+#LEADERSHIP .OUR .Lorem {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#LEADERSHIP .OUR .Lorem h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+#LEADERSHIP .OUR .MINING {
+  width: 100%;
+  text-align: center;
+}
+#LEADERSHIP .OUR .MINING img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#LEADERSHIP .OUR .MINING p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#LEADERSHIP .OUR .MINING i {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+#BLOG {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#BLOG .OUR {
+  width: 100%;
+  min-height: 700px;
+}
+#BLOG .OUR .Lorem {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#BLOG .OUR .Lorem h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+#BLOG img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+#BLOG h3 {
+  font-weight: 800;
+  color: #FD5F42;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#BLOG h6 {
+  color: #FD5F42;
+}
+
+footer {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer .end {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#prodactsCart {
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#prodactsCart #myDiv {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#prodactsCart #myDiv .myBox {
+  width: 100%;
+  min-height: 350px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#prodactsCart #myDiv .myBox img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+#prodactsCart #myDiv .myBox h3 {
+  margin-bottom: 20px;
+  color: #FD5F00;
+  font-weight: 800;
+}
+#prodactsCart #myDiv .myBox button {
+  height: 30px;
+  background-color: #FD5F00;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+#prodactsCart #myDiv .myBox button:hover {
+  background-color: white;
+  color: #FD5F00;
+  border: 2px solid #FD5F00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+header .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav button {
+  width: 80px;
+  min-height: 40px;
+  font-size: 25px;
+  font-weight: 700;
+}
+header .nav .div ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 30px;
+}
+header .nav .div ul li a {
+  color: black;
+  text-decoration: none;
+}
+header .nav .dropdown {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  header .nav .div {
+    display: none;
+  }
+  header .nav .dropdown {
+    display: block;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section #forumDiv {
+  width: 100%;
+  margin-top: 20px;
+}
+.section #forumDiv .myBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.3px solid rgb(161, 161, 161);
+  background-color: rgb(221, 221, 221);
+  padding-left: 20px;
+  padding-right: 20px;
+}
